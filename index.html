@@ -18,10 +18,10 @@
                 <button class="botao-abrir-davi">abrir menu dois</button> -->
             </div>
             <div class="div-botao">
-                <a class="botao-davi" href="#">Product</a>
-                <a class="botao-davi" href="#">Company</a>
-                <a class="botao-davi" href="#">Pricing</a>
-                <a class="botao-davi" href="#">Resurces</a>
+                <a class="botao-davi" href="#">Produtos</a>
+                <a class="botao-davi" href="#">Empresa</a>
+                <a class="botao-davi" href="#">Preços</a>
+                <a class="botao-davi" href="#">Promoções</a>
                 
             </div>
             <div class="login">
@@ -30,13 +30,35 @@
                 
             </div>
             
-            <div class="botao-abrir-davi">
+            <div id="open_menu" onclick="changeMenu('open')" class="botao-abrir-davi">
                 <span class="material-symbols-outlined">
                     menu
-                    </span>
+                </span>
             </div>
         </div>
     </header>
+    
+    <div id="mobile_menu" class="mobile_menu">
+        
+        <div class="mobile_header">
+            
+            <img class="logo-boss" src="imagens/logo-boss.png" alt="Logo Boss">
+            <span onclick="changeMenu('close')" class="material-symbols-outlined">
+                close
+            </span>
+            
+        </div>
+        
+        <div class="mobile_body">
+            
+            <a class="menu-davi" href="#">Produtos</a>
+            <a class="menu-davi" href="#">Empresa</a>
+            <a class="menu-davi" href="#">Preços</a>
+            <a class="menu-davi" href="#">Promoções</a>
+            
+        </div>
+        
+    </div>
     
     <div class="cover">
         
@@ -62,11 +84,309 @@
             </div>
             
             
-            <img src="imagens/cover.svg" alt="imagem cover">
+            <img class="img_cover" src="imagens/cover.svg" alt="imagem cover">
             
         </div>
         
     </div>
-
+    
+    <div class="destaque">
+        
+        <div class="destaque_cover">
+            
+            <div class="texto_destaque">
+            
+                <h1>Destaques</h1>
+                <p>Aqui mostraremos algumas de nossas lojas e produtos mais cobiçados!</p>
+            
+            </div> 
+            
+             
+             
+            <div class="destaque_lojas">
+            
+                <h3 class="h3_destaque">Lojas em destaque:</h3>
+            
+                <div class="div_loja">
+                    <a href="#" class="a_loja">
+                        <p class="p_destaque">Shop-Zero</p>
+                        <img src="imagens/aloha.png" alt="">
+                    </a>
+                    <a href="#" class="a_loja">
+                        <p class="p_destaque">Buy-Sell</p>
+                        <img src="imagens/loja2.png" alt="">
+                    </a>
+                                
+                                   <a href="#" class="a_loja">
+                       <p class="p_destaque">Make to Buy</p>
+                       <img src="imagens/loja3.png" alt="">
+                                
+                                   </a>
+                    <a href="#" class="a_loja">
+                        <p class="p_destaque">Sell to You</p>
+                        <img src="imagens/loja4.png" alt="">
+                    </a>
+                    <a href="#" class="a_loja">
+                        <p class="p_destaque">Buy or Not?</p>
+                        <img src="imagens/loja5.png" alt="">
+                    </a>
+                </div>
+            
+            </div>
+            
+            <div class="destaque_produto">
+            
+                <div class="h3_produto">
+                    <h3>Produtos em Destaque</h3>
+                </div>
+        
+                <div class="produto_box">
+                    
+                    <a href="#" class="produto_img">
+                    
+                        <div class="div_img"><img src="imagens/roupa1.png" alt="imagem de produto"></div>
+                    
+                        <ul>
+                            <li>Preço: ...</li>
+                            <li>Cores: ...</li>
+                            <li>Tamanhos: ...</li>
+                        </ul>
+                    
+                    </a>
+                    
+                    <a href="#" class="produto_img">
+                    
+                        <div class="div_img"><img src="imagens/roupa2.png" alt="imagem de produto"></div>
+                        <ul>
+                            <li>Preço: ...</li>
+                            <li>Cores: ...</li>
+                            <li>Tamanhos: ...</li>
+                        </ul>
+                    
+                    </a>
+                    
+                    <a href="#" class="produto_img">
+                    
+                        <div class="div_img"><img src="imagens/roupa3.png" alt="imagem de produto"></div>
+                        <ul>
+                            <li>Preço: ...</li>
+                            <li>Cores: ...</li>
+                            <li>Tamanhos: ...</li>
+                        </ul>
+                    
+                    </a>
+                    
+                    <a href="#" class="produto_img">
+                    
+                        <div class="div_img"><img src="imagens/roupa4.png" alt="imagem de produto"></div>
+                        <ul>
+                            <li>Preço: ...</li>
+                            <li>Cores: ...</li>
+                            <li>Tamanhos: ...</li>
+                        </ul>
+                    
+                    </a>
+                    
+                    <a href="#" class="produto_img">
+                    
+                        <div class="div_img"><img src="imagens/roupa5.png" alt="imagem de produto"></div>
+                        <ul>
+                            <li>Preço: ...</li>
+                            <li>Cores: ...</li>
+                            <li>Tamanhos: ...</li>
+                        </ul>
+                    
+                    </a>
+                    
+                    <a href="#" class="produto_img">
+                    
+                        <div class="div_img"><img src="imagens/roupa6.png" alt="imagem de produto"></div>
+                        <ul>
+                            <li>Preço: ...</li>
+                            <li>Cores: ...</li>
+                            <li>Tamanhos: ...</li>
+                        </ul>
+                    
+                    </a>
+                    
+                    <a href="#" class="produto_img">
+                    
+                        <div class="div_img"><img src="imagens/roupa7.png" alt="imagem de produto"></div>
+                        <ul>
+                            <li>Preço: ...</li>
+                            <li>Cores: ...</li>
+                            <li>Tamanhos: ...</li>
+                        </ul>
+                    
+                    </a>
+                    
+                    <a href="#" class="produto_img">
+                    
+                        <div class="div_img"><img src="imagens/roupa8.png" alt="imagem de produto"></div>
+                        <ul>
+                            <li>Preço: ...</li>
+                            <li>Cores: ...</li>
+                            <li>Tamanhos: ...</li>
+                        </ul>
+                    
+                    </a>
+                    
+                    <a href="#" class="produto_img">
+                    
+                        
+                        <div class="div_img"><img src="imagens/roupa9.png" alt="imagem de produto"></div>
+                        <ul>
+                            <li>Preço: ...</li>
+                            <li>Cores: ...</li>
+                            <li>Tamanhos: ...</li>
+                        </ul>
+                    
+                    </a>
+                    
+                    <a href="#" class="produto_img">
+                    
+                        <div class="div_img"><img src="imagens/roupa10.png" alt="imagem de produto"></div>
+                        <ul>
+                            <li>Preço: ...</li>
+                            <li>Cores: ...</li>
+                            <li>Tamanhos: ...</li>
+                        </ul>
+                    
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>   
+     
+    <div class="info">
+        
+        <div class="info_body">
+            
+            <div class="compra_segura">
+                
+               
+                 <img class="img_segura" src="imagens/segura.png" alt="">
+                
+                <div class="texto">
+                    <h3>Compra Segura</h3>
+                    <p>Ambiente seguro para pagamentos online</p>
+                </div>
+                
+            </div>
+            
+            <div class="frete_gratis">
+                
+                
+                <img class="img_frete" src="imagens/transport.png" alt="">
+                
+                <div class="texto">
+                    <h3>Frete Grátis</h3>
+                    <p>Envio rápito e acompanhado com código de rastreamento</p>
+                </div>
+                
+            </div>
+            
+            <div class="suporte_profissional">
+                    
+                <img class="img_suporte" src="imagens/customer-suport.png" alt="">
+                
+                <div class="texto">
+                    <h3>Suporte Profissional</h3>
+                    <p>Equipe de suporte de extrema qualidade a semana inteira</p>
+                </div>
+                
+            </div>
+            
+            <div class="satisfacoes">
+                
+                <img class="img_satisfacoes" src="imagens/cash-back.png" alt="">
+                
+                <div class="texto">
+                    <h3>Satisfações ou Reembolso</h3>
+                    <p>Caso haja algum problema, devolvemos seu dinheiro com velocidade e praticidade</p>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <div class="footer">
+        
+        <div class="footer_body">
+            <div class="div_logo">
+                <img src="imagens/logo-boss.png" alt="" class="logo_footer">
+                
+                <div class="texto_1">
+                    <h4>ATENDIMENTO AO CLIENTE</h4>
+                    <h4>SAC (Serviço de Atendimento ao Consumidor)</h4>
+                </div>
+                
+                <div class="texto_2">
+                    <h4>E-mail: xxxxxxxxxxxx@gmail.com </h4>
+                    <h4>WhatsApp: <a href="#">(51) xxxxx-xxxx</a> </h4>
+                </div>
+                
+            </div>
+            <div class="div_rodape">
+                
+                <div class="texto_1">
+                    <h4>MENU RODAPÉ</h4>
+                </div>
+                
+                <div id="texto_2" class="texto_2">
+                    <h4><a href="#">Pesquisar</a></h4>
+                    <h4><a href="#">Quem somos</a></h4>
+                    <h4><a href="#">Acompanhe seu pedido</a></h4>
+                    <h4><a href="#">Entrar em contato</a></h4>
+                    <h4><a href="#">Políticas de cookies</a></h4>
+                    <h4><a href="#">Políticas de Frete</a></h4>
+                    <h4><a href="#">Políticas de privacidade</a></h4>
+                    <h4><a href="#">Políticas de reembolso</a></h4>
+                </div>
+                
+            </div>
+                
+            <div class="div_assine">
+                
+                <div class="texto_1">
+                    <h4>NOSSAS NOTIFICAÇÔES</h4>
+                </div>
+                <div class="texto_2">
+                    <h4>Faça login já e fique por dentro das novidades</h4>
+                </div>
+                
+                <div class="botao_assine">
+                    
+                    <div class="login_2">
+                        <a class="botao-login" href="#"><p>Login</p></a>
+                        <a class="sign-up" href="#"><p>Sign Up</p></a>
+                        
+                    </div>
+                    
+                </div>
+                
+                
+                
+            </div>
+            
+        </div>
+        
+        <div class="div_nome">
+            <p>© BOSS</p>
+        </div>
+        
+        <div class="div_final">
+            <p>Preços e condições de pagamento exclusivos para compras neste site oficial, podendo variar com o tempo da oferta. Evite comprar produtos mais baratos ou de outras lojas, pois você pode estar sendo enganado(a) por um golpista. Caso você compre os mesmos produtos em outras lojas, não nos responsabilizamos por quaisquer problemas.</p>
+        </div>
+        
+    </div>
+    
+    
+    
+    <script src="scripts/script.js"></script>
+    
 </body>
 </html>
